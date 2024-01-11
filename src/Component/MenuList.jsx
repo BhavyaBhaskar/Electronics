@@ -3,7 +3,7 @@ import MenuHeading from "./MenuHeading";
 
 function MenuList() {
   return (
-    <ul className="bg-stone-700 text-stone-100 w-72 ml-80 px-10">
+    <ul className="bg-[#191919] text-stone-100 w-72 ml-80 px-10 py-5 absolute">
       <MenuHeading text="Shop by Category" />
       <MenuItem text="Televisionn & Accessories" />
       <MenuItem text="Home Appliance" />

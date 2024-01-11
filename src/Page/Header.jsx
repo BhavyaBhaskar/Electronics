@@ -12,17 +12,19 @@ function Header() {
 
   return (
     <>
-      <div className="bg-[#000000] h-16 flex justify-between px-52 sticky top-0">
-        <div className="text-stone-100 text-2xl flex items-center justify-start font-bold">
-          Electronics
+      <div className="bg-[#000000] h-16 flex justify-between px-52 sticky top-0 z-40">
+        <div className="text-stone-100 text-2xl flex items-center justify-start font-bold cursor-pointer">
+          BBElectronics
         </div>
+        {/* <div className="flex justify-start"> */}
         <Menu setIsMenuOpen={setIsMenuOpen} />
+        {/* </div> */}
         <SearchBox />
         <Location />
         <Account />
         <Cart />
       </div>
-      {isMenuOpen && <MenuList />}
+      <div>{isMenuOpen && <MenuList />}</div>
     </>
   );
 }

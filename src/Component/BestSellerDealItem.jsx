@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-function Product({
+function BestSellerDealItem({
   image,
   productName,
   productPrice,
@@ -8,7 +8,7 @@ function Product({
   productPriceStrike,
 }) {
   return (
-    <div className="mx-4 scale-105">
+    <div className="mx-4 scale-105 min-w-64">
       <div className=" rounded-xl bg-[#121212] p-5">
         <img src={image} />
         <div className="mx-4">
@@ -30,4 +30,4 @@ function Product({
   );
 }
 
-export default Product;
+export default BestSellerDealItem;

@@ -1,13 +1,14 @@
+/* eslint-disable no-unused-vars */
 import BestSellerDealItem from "./BestSellerDealItem";
 
 function ProductContainer() {
   return (
-    <div>
+    <div className="-z-50">
       <div className="text-stone-100 mx-36 my-10 text-3xl">
         Best Seller Deals
       </div>
       <div className="mx-36">
-        <div className="grid grid-cols-4 my-4">
+        <div className="grid grid-cols-4 my-4 static">
           <BestSellerDealItem
             image="Top Trending Deal/BestSeller1.png"
             productName="LG Fridge dual door"
