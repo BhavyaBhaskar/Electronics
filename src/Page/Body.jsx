@@ -1,16 +1,20 @@
-import RotationalBannerList from "../Component/RotationalBannerList";
 import ScrollSelectBrand from "../Component/ScrollSelectBrand";
-import ProductContainer from "../Component/ProductContainer";
+import BestSellerDealContainer from "../Component/BestSellerDealContainer";
 import ScrollSelectCategory from "../Component/ScrollSelectCategory";
-import Footer from "../Component/Footer";
+import HighlightContainer from "../Component/HiglightContainer";
+import Footer from "./Footer";
+import TopCard from "../Component/TopCard";
 
 function Body() {
   return (
     <div className="bg-[#191919]">
-      <RotationalBannerList />
-      <ScrollSelectBrand />
+      <TopCard />
       <ScrollSelectCategory />
-      <ProductContainer />
+      <div className="flex-col gap-2">
+        <BestSellerDealContainer />
+        <HighlightContainer />
+      </div>
+      <ScrollSelectBrand />
       <Footer />
     </div>
   );

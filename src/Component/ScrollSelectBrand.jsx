@@ -2,7 +2,7 @@ import ScrollSelectBrandImage from "./ScrollSelectBrandImage";
 
 function ScrollSelectCategory() {
   return (
-    <div className="flex items-center mx-36">
+    <div className="flex items-center mx-20">
       <span className="text-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ function ScrollSelectCategory() {
           />
         </svg>
       </span>
-      <div className="py-10 flex items-center gap-10 overflow-y-auto max-w-screen-lg mx-auto">
+      <div className="py-10 flex items-center gap-10 overflow-y-auto max-w-screen-xl mx-auto">
         <ScrollSelectBrandImage image={"/Scroll Select Brand/Amazon.png"} />
         <ScrollSelectBrandImage image={"/Scroll Select Brand/Apple.png"} />
         <ScrollSelectBrandImage image={"/Scroll Select Brand/Croma.png"} />
@@ -30,20 +30,12 @@ function ScrollSelectCategory() {
         <ScrollSelectBrandImage image={"/Scroll Select Brand/Lg.png"} />
         <ScrollSelectBrandImage image={"/Scroll Select Brand/Mi.png"} />
         <ScrollSelectBrandImage image={"/Scroll Select Brand/Oppo.png"} />
-        <ScrollSelectBrandImage
-          image={"public/Scroll Select Brand/Panasonic.png"}
-        />
-        <ScrollSelectBrandImage
-          image={"public/Scroll Select Brand/Philips.png"}
-        />
-        <ScrollSelectBrandImage
-          image={"public/Scroll Select Brand/Realme.png"}
-        />
-        <ScrollSelectBrandImage
-          image={"public/Scroll Select Brand/Samsung.png"}
-        />
-        <ScrollSelectBrandImage image={"public/Scroll Select Brand/Sony.png"} />
-        <ScrollSelectBrandImage image={"public/Scroll Select Brand/VIvo.png"} />
+        <ScrollSelectBrandImage image={"/Scroll Select Brand/Panasonic.png"} />
+        <ScrollSelectBrandImage image={"/Scroll Select Brand/Philips.png"} />
+        <ScrollSelectBrandImage image={"/Scroll Select Brand/Realme.png"} />
+        <ScrollSelectBrandImage image={"/Scroll Select Brand/Samsung.png"} />
+        <ScrollSelectBrandImage image={"/Scroll Select Brand/Sony.png"} />
+        <ScrollSelectBrandImage image={"/Scroll Select Brand/VIvo.png"} />
       </div>
       <span className="text-white">
         <svg

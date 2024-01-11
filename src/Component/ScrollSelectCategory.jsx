@@ -2,7 +2,7 @@ import ScrollSelectCategoryImage from "./ScrollSelectCategoryImage";
 
 function ScrollSelectCategory() {
   return (
-    <div className="flex items-center mx-36">
+    <div className="flex items-center mx-20">
       <span className="text-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +19,7 @@ function ScrollSelectCategory() {
           />
         </svg>
       </span>
-      <div className="py-10 flex gap-10 overflow-y-auto max-w-screen-lg mx-auto">
+      <div className="py-10 flex gap-10 overflow-y-auto max-w-screen-xl mx-auto">
         <ScrollSelectCategoryImage
           image={"/Scroll Select Category/Accessories.png"}
         />
@@ -51,28 +51,28 @@ function ScrollSelectCategory() {
           image={"/Scroll Select Category/Mobiles.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/Refrigerators.png"}
+          image={"/Scroll Select Category/Refrigerators.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/Speakers&MediaPlayers.png"}
+          image={"/Scroll Select Category/Speakers&MediaPlayers.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/Tablets.png"}
+          image={"/Scroll Select Category/Tablets.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/Televisions.png"}
+          image={"/Scroll Select Category/Televisions.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/WaterPurifier.png"}
+          image={"/Scroll Select Category/WaterPurifier.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/Wearables.png"}
+          image={"/Scroll Select Category/Wearables.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/UnboxedByCroma.png"}
+          image={"/Scroll Select Category/UnboxedByCroma.png"}
         />
         <ScrollSelectCategoryImage
-          image={"public/Scroll Select Category/WashingMachine.png"}
+          image={"/Scroll Select Category/WashingMachine.png"}
         />
       </div>
       <span className="text-white">
