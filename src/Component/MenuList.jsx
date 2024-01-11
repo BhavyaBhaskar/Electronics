@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import MenuItem from "./MenuItem";
 import MenuHeading from "./MenuHeading";
 
-function MenuList() {
+function MenuList(setIsMenuOpen) {
   return (
-    <ul className="bg-[#191919] text-stone-100 w-72 ml-80 px-10 py-5 absolute">
+    <div className="bg-[#191919] text-stone-100 w-80 ml-80 px-10 py-5 absolute">
       <MenuHeading text="Shop by Category" />
       <MenuItem text="Televisionn & Accessories" />
       <MenuItem text="Home Appliance" />
@@ -17,7 +18,7 @@ function MenuList() {
       <MenuItem text="Smart Devices" />
       <MenuItem text="Gaming" />
       <MenuItem text="Accessories" />
-    </ul>
+    </div>
   );
 }
 

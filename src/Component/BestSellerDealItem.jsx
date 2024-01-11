@@ -9,7 +9,7 @@ function BestSellerDealItem({
 }) {
   return (
     <div className="mx-4 scale-105 min-w-64">
-      <div className=" rounded-xl bg-[#121212] p-5">
+      <div className=" rounded-xl bg-[#121212] p-5 hover:scale-105 transition-all cursor-pointer ">
         <img src={image} />
         <div className="mx-4">
           <div className="text-[#f5f5f5] font-semibold text-xl my-2">

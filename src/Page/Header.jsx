@@ -16,15 +16,13 @@ function Header() {
         <div className="text-stone-100 text-2xl flex items-center justify-start font-bold cursor-pointer">
           BBElectronics
         </div>
-        {/* <div className="flex justify-start"> */}
         <Menu setIsMenuOpen={setIsMenuOpen} />
-        {/* </div> */}
         <SearchBox />
         <Location />
         <Account />
         <Cart />
       </div>
-      <div>{isMenuOpen && <MenuList />}</div>
+      <div>{isMenuOpen && <MenuList setIsMenuOpen={setIsMenuOpen} />}</div>
     </>
   );
 }
