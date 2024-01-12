@@ -10,7 +10,7 @@ function Body() {
     <div className="bg-[#191919]">
       <TopCard />
       <ScrollSelectCategory />
-      <div className="flex-col gap-2">
+      <div>
         <BestSellerDealContainer />
         <HighlightContainer />
       </div>

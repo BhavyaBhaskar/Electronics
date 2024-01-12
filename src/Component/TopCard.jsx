@@ -4,13 +4,13 @@ function TopCard() {
       <div className="">
         <img
           src="/TopCard/ICICI.png"
-          className="hover:scale-105 transition-all"
+          className="hover:scale-105 transition-all rounded-lg"
         />
       </div>
       <div>
         <img
           src="/TopCard/ZIPcare.png"
-          className="hover:scale-105 transition-all"
+          className="hover:scale-105 transition-all rounded-lg"
         />
       </div>
     </div>

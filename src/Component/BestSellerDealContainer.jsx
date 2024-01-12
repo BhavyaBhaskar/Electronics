@@ -4,11 +4,11 @@ import BestSellerDealItem from "./BestSellerDealItem";
 function ProductContainer() {
   return (
     <div className="-z-50">
-      <div className="text-stone-100 mx-36 my-10 text-3xl">
+      <div className="text-stone-100 mx-36 my-6 mb-10 text-3xl">
         Best Seller Deals
       </div>
       <div className="mx-36">
-        <div className="grid grid-cols-4 my-4 static">
+        <div className="grid grid-cols-4">
           <BestSellerDealItem
             image="Top Trending Deal/BestSeller1.png"
             productName="LG Fridge dual door"
