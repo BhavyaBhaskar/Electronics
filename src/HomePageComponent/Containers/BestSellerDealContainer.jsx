@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import BestSellerDealItem from "./BestSellerDealItem";
+import BestSellerDealItem from "../Items/BestSellerDealItem";
 
 function ProductContainer() {
   return (

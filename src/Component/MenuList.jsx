@@ -4,7 +4,7 @@ import MenuHeading from "./MenuHeading";
 
 function MenuList(setIsMenuOpen) {
   return (
-    <div className="bg-[#191919] text-stone-100 w-80 ml-80 px-10 py-5 absolute">
+    <div className="bg-[#191919] text-stone-100 w-80 mx-36 px-10 py-5 absolute z-30 top-16">
       <MenuHeading text="Shop by Category" />
       <MenuItem text="Televisionn & Accessories" />
       <MenuItem text="Home Appliance" />

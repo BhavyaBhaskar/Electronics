@@ -1,11 +1,13 @@
-import ScrollSelectBrand from "../HomePageComponent/ScrollSelectBrand";
-import BestSellerDealContainer from "../HomePageComponent/BestSellerDealContainer";
-import ScrollSelectCategory from "../HomePageComponent/ScrollSelectCategory";
-import HighlightContainer from "../HomePageComponent/HiglightContainer";
-import TabletsContainer from "../HomePageComponent/TabletsContainer";
+import ScrollSelectBrand from "../HomePageComponent/Containers/ScrollSelectBrand";
+import BestSellerDealContainer from "../HomePageComponent/Containers/BestSellerDealContainer";
+import ScrollSelectCategory from "../HomePageComponent/Containers/ScrollSelectCategory";
+import HighlightContainer from "../HomePageComponent/Containers/HiglightContainer";
+import TabletsContainer from "../HomePageComponent/Containers/TabletsContainer";
 import Footer from "./Footer";
 import TopCard from "../Component/TopCard";
-import AppleAtCromaContainer from "../HomePageComponent/AppleAtCromaContainer";
+import AppleAtCromaContainer from "../HomePageComponent/Containers/AppleAtCromaContainer";
+import NewAtCromaContainer from "../HomePageComponent/Containers/NewAtCromaContainer";
+import AccessoriesContainer from "../HomePageComponent/Containers/AccessoriesContainer";
 
 function Body() {
   return (
@@ -17,6 +19,8 @@ function Body() {
       <TabletsContainer />
       <ScrollSelectBrand />
       <AppleAtCromaContainer />
+      <NewAtCromaContainer />
+      <AccessoriesContainer />
       <Footer />
     </div>
   );

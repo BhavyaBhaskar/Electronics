@@ -1,4 +1,4 @@
-import ScrollSelectBrandImage from "./ScrollSelectBrandImage";
+import ScrollSelectBrandImage from "../Items/ScrollSelectBrandImage";
 
 function ScrollSelectCategory() {
   return (

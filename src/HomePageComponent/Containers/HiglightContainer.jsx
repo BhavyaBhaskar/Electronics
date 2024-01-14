@@ -1,4 +1,4 @@
-import HighlightItem from "./HiglightItem";
+import HighlightItem from "../Items/HiglightItem";
 
 function ProductContainer() {
   return (

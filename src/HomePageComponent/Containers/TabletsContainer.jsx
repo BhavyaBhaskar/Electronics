@@ -1,4 +1,4 @@
-import TabletsItem from "./TabletsItem";
+import TabletsItem from "../Items/TabletsItem";
 
 function TopTrendingDealContainer() {
   return (

@@ -3,7 +3,7 @@ function SearchBox() {
     <input
       type="text"
       placeholder="What are you looking for ?"
-      className="h-10 w-4/12 flex items-center my-auto rounded-lg cursor-pointer px-4"
+      className="h-10 w-5/12 flex items-center my-auto rounded-lg cursor-pointer px-4"
     />
   );
 }

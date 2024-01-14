@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import AppleAtCromaItem from "./AppleAtCromaItem";
+import AppleAtCromaItem from "../Items/AppleAtCromaItem";
 
 function ProductContainer() {
   return (
