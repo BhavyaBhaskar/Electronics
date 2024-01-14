@@ -8,7 +8,7 @@ function AppleAtCromaItem({
   productPriceStrike,
 }) {
   return (
-    <div className="mx-1 my-1 min-w-64">
+    <div className="mx-2 my-2 min-w-64">
       <img src={image} className="rounded-lg" />
     </div>
   );
