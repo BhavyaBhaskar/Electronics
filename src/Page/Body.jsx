@@ -1,4 +1,4 @@
-import ScrollSelectBrand from "../HomePageComponent/Containers/ScrollSelectBrand";
+// import ScrollSelectBrand from "../HomePageComponent/Containers/ScrollSelectBrand";
 import BestSellerDealContainer from "../HomePageComponent/Containers/BestSellerDealContainer";
 import ScrollSelectCategory from "../HomePageComponent/Containers/ScrollSelectCategory";
 import HighlightContainer from "../HomePageComponent/Containers/HiglightContainer";
@@ -17,7 +17,7 @@ function Body() {
       <BestSellerDealContainer />
       <HighlightContainer />
       <TabletsContainer />
-      <ScrollSelectBrand />
+      {/* <ScrollSelectBrand /> */}
       <AppleAtCromaContainer />
       <NewAtCromaContainer />
       <AccessoriesContainer />
