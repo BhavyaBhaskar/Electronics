@@ -10,6 +10,12 @@ function ProductContainer() {
       <div className="mx-36">
         <div className="grid grid-cols-4">
           <BestSellerDealItem
+            image="HomePageComponents/Top Trending Deal/BestSeller3.png"
+            productName="Realme 12 5G"
+            productPrice="40000"
+            productStar=""
+          />
+          <BestSellerDealItem
             image="HomePageComponents/Top Trending Deal/BestSeller1.png"
             productName="LG Fridge dual door"
             productPrice="100000/-"
@@ -22,12 +28,7 @@ function ProductContainer() {
             productPriceStrike="45000"
             productStar=""
           />
-          <BestSellerDealItem
-            image="HomePageComponents/Top Trending Deal/BestSeller3.png"
-            productName="Realme 12 5G"
-            productPrice="40000"
-            productStar=""
-          />
+
           <BestSellerDealItem
             image="HomePageComponents/Top Trending Deal/BestSeller4.png"
             productName="Croma 32' TV"
