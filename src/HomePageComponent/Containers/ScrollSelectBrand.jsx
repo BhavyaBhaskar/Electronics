@@ -24,24 +24,22 @@ function ScrollSelectCategory() {
           </svg>
         </span>
         <div className="py-10 flex items-center gap-10 overflow-y-auto max-w-screen-xl mx-auto">
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Amazon.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Apple.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Croma.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Dell.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Hp.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Jbl.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Lenovo.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Lg.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Mi.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Oppo.png"} />
-          <ScrollSelectBrandImage
-            image={"/Scroll Select Brand/Panasonic.png"}
-          />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Philips.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Realme.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Samsung.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/Sony.png"} />
-          <ScrollSelectBrandImage image={"/Scroll Select Brand/VIvo.png"} />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Amazon.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Apple.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Croma.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Dell.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Hp.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Jbl.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Lenovo.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Lg.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Mi.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Oppo.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Panasonic.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Philips.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Realme.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Samsung.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/Sony.png" />
+          <ScrollSelectBrandImage image="HomePageComponents/Scroll Select Brand/VIvo.png" />
         </div>
         <span className="text-white">
           <svg

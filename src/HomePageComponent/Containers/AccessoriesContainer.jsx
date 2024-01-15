@@ -9,10 +9,10 @@ function ProductContainer() {
       </div>
       <div className="mx-36">
         <div className="grid grid-cols-4">
-          <AccessoriesItem image="Accessories/OfficePrinters.png" />
-          <AccessoriesItem image="Accessories/Monitors.png" />
-          <AccessoriesItem image="Accessories/GamingMouse&Keyboard.png" />
-          <AccessoriesItem image="Accessories/LaptopBags.png" />
+          <AccessoriesItem image="HomePageComponents/Accessories/OfficePrinters.png" />
+          <AccessoriesItem image="HomePageComponents/Accessories/Monitors.png" />
+          <AccessoriesItem image="HomePageComponents/Accessories/GamingMouse&Keyboard.png" />
+          <AccessoriesItem image="HomePageComponents/Accessories/LaptopBags.png" />
         </div>
       </div>
     </div>

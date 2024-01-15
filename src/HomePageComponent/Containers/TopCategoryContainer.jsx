@@ -9,35 +9,35 @@ function TopTrendingDealContainer() {
       <div className="mx-36">
         <div className="grid grid-cols-4">
           <TopCategoryItem
-            image="Top Categories/Accessories.jpg"
+            image="HomePageComponents/Top Categories/Accessories.jpg"
             productName="Accessories"
           />
           <TopCategoryItem
-            image="Top Categories/HomeAppliance.jpg"
+            image="HomePageComponents/Top Categories/HomeAppliance.jpg"
             productName="Home Appliance"
           />
           <TopCategoryItem
-            image="Top Categories/ComputersTablets.jpg"
+            image="HomePageComponents/Top Categories/ComputersTablets.jpg"
             productName="Computers & Tablets"
           />
           <TopCategoryItem
-            image="Top Categories/Phone&Wearable.jpg"
+            image="HomePageComponents/Top Categories/Phone&Wearable.jpg"
             productName="Phones & Wearables"
           />
           <TopCategoryItem
-            image="Top Categories/KitchenAppliance.jpg"
+            image="HomePageComponents/Top Categories/KitchenAppliance.jpg"
             productName="Kitchen Appliance"
           />
           <TopCategoryItem
-            image="Top Categories/AudioVideo.jpg"
+            image="HomePageComponents/Top Categories/AudioVideo.jpg"
             productName="Audio & Video"
           />
           <TopCategoryItem
-            image="Top Categories/Camera&Accessories.jpg"
+            image="HomePageComponents/Top Categories/Camera&Accessories.jpg"
             productName="Cameras & Accessories"
           />
           <TopCategoryItem
-            image="Top Categories/Gaming.jpg"
+            image="HomePageComponents/Top Categories/Gaming.jpg"
             productName="Gaming"
           />
         </div>

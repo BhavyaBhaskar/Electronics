@@ -9,14 +9,14 @@ function ProductContainer() {
       </div>
       <div className="mx-36">
         <div className="grid grid-cols-2">
-          <NewAtCromaItem image="New At Croma/RealmePhone.png" />
-          <NewAtCromaItem image="New At Croma/TCLWachingMachine.png" />{" "}
+          <NewAtCromaItem image="HomePageComponents/New At Croma/RealmePhone.png" />
+          <NewAtCromaItem image="HomePageComponents/New At Croma/TCLWachingMachine.png" />{" "}
         </div>
         <div className="grid grid-cols-4">
-          <NewAtCromaItem image="New At Croma/CromaAC.png" />
-          <NewAtCromaItem image="New At Croma/CromaFANHEATER.png" />
-          <NewAtCromaItem image="New At Croma/CromaREFRIGERATOR.png" />
-          <NewAtCromaItem image="New At Croma/LEDProjector.png" />
+          <NewAtCromaItem image="HomePageComponents/New At Croma/CromaAC.png" />
+          <NewAtCromaItem image="HomePageComponents/New At Croma/CromaFANHEATER.png" />
+          <NewAtCromaItem image="HomePageComponents/New At Croma/CromaREFRIGERATOR.png" />
+          <NewAtCromaItem image="HomePageComponents/New At Croma/LEDProjector.png" />
         </div>
       </div>
     </div>

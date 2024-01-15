@@ -10,26 +10,26 @@ function ProductContainer() {
       <div className="mx-36">
         <div className="grid grid-cols-4">
           <BestSellerDealItem
-            image="Top Trending Deal/BestSeller1.png"
+            image="HomePageComponents/Top Trending Deal/BestSeller1.png"
             productName="LG Fridge dual door"
             productPrice="100000/-"
             productStar=""
           />
           <BestSellerDealItem
-            image="Top Trending Deal/BestSeller2.png"
+            image="HomePageComponents/Top Trending Deal/BestSeller2.png"
             productName="HP Ideabook gaming"
             productPrice="40000"
             productPriceStrike="45000"
             productStar=""
           />
           <BestSellerDealItem
-            image="Top Trending Deal/BestSeller3.png"
+            image="HomePageComponents/Top Trending Deal/BestSeller3.png"
             productName="Realme 12 5G"
             productPrice="40000"
             productStar=""
           />
           <BestSellerDealItem
-            image="Top Trending Deal/BestSeller4.png"
+            image="HomePageComponents/Top Trending Deal/BestSeller4.png"
             productName="Croma 32' TV"
             productPrice="120000"
             productStar=""

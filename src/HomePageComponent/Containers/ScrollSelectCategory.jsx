@@ -20,60 +20,24 @@ function ScrollSelectCategory() {
         </svg>
       </span>
       <div className="py-10 flex gap-10 overflow-y-auto max-w-screen-xl mx-auto">
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Accessories.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/AirConditioner.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Cameras.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Gaming.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Grooming.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Headphone&Earphones.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/HomeTheatres&Soundbars.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/KitchenAppliance.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Laptops.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Mobiles.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Refrigerators.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Speakers&MediaPlayers.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Tablets.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Televisions.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/WaterPurifier.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/Wearables.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/UnboxedByCroma.png"}
-        />
-        <ScrollSelectCategoryImage
-          image={"/Scroll Select Category/WashingMachine.png"}
-        />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Accessories.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/AirConditioner.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Cameras.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Gaming.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Grooming.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Headphone&Earphones.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/HomeTheatres&Soundbars.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/KitchenAppliance.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Laptops.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Mobiles.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Refrigerators.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Speakers&MediaPlayers.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Tablets.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Televisions.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/WaterPurifier.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Wearables.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/UnboxedByCroma.png" />
+        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/WashingMachine.png" />
       </div>
       <span className="text-white">
         <svg
