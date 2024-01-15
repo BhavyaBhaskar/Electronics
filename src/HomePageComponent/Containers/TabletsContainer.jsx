@@ -3,7 +3,7 @@ import TabletsItem from "../Items/TabletsItem";
 function TopTrendingDealContainer() {
   return (
     <div className="-z-50">
-      <div className="text-stone-100 mx-36 my-6 mb-10 text-3xl">
+      <div className="text-stone-100 mx-36 my-6 mb-10 text-3xl font-bold">
         Top Trending Deals
       </div>
       <div className="mx-36">
