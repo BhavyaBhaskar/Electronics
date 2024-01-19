@@ -4,7 +4,7 @@ function Menu({ setIsMenuOpen, isMenuOpen }) {
     <div className="text-stone-100 text-sm font-semibold flex items-center cursor-pointer hover:scale-125 transition-all">
       <div
         className="flex gap-1"
-        onClick={() => setIsMenuOpen((show) => !show)}
+        onMouseEnter={() => setIsMenuOpen(() => true)}
       >
         {isMenuOpen ? (
           <svg

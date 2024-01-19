@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import ScrollSelectCategoryImage from "../Items/ScrollSelectCategoryImage";
 
-function ScrollSelectCategory() {
+function ScrollSelectCategory({ setCurrentPage }) {
   return (
     <div className="flex items-center mx-20">
       <span className="text-white">
@@ -20,6 +21,11 @@ function ScrollSelectCategory() {
         </svg>
       </span>
       <div className="py-10 flex gap-10 overflow-y-auto max-w-screen-xl mx-auto">
+        <ScrollSelectCategoryImage
+          image="HomePageComponents/Scroll Select Category/Mobiles.png"
+          text="MobilePhone"
+          setCurrentPage={setCurrentPage}
+        />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Accessories.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/AirConditioner.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Cameras.png" />
@@ -29,7 +35,6 @@ function ScrollSelectCategory() {
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/HomeTheatres&Soundbars.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/KitchenAppliance.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Laptops.png" />
-        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Mobiles.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Refrigerators.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Speakers&MediaPlayers.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Tablets.png" />

@@ -1,11 +1,15 @@
+/* eslint-disable no-unused-vars */
+import { useState } from "react";
 import Body from "./Page/Body";
 import Header from "./Page/Header";
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("Home");
+
   return (
     <>
-      <Header />
-      <Body />
+      <Header setCurrentPage={setCurrentPage} />
+      <Body setCurrentPage={setCurrentPage} currentPage={currentPage} />
     </>
   );
 }
