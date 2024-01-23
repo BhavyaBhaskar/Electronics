@@ -26,6 +26,16 @@ function ScrollSelectCategory({ setCurrentPage }) {
           text="MobilePhone"
           setCurrentPage={setCurrentPage}
         />
+        <ScrollSelectCategoryImage
+          image="HomePageComponents/Scroll Select Category/Televisions.png"
+          text="Television"
+          setCurrentPage={setCurrentPage}
+        />
+        <ScrollSelectCategoryImage
+          image="HomePageComponents/Scroll Select Category/Laptops.png"
+          text="Laptop"
+          setCurrentPage={setCurrentPage}
+        />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Accessories.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/AirConditioner.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Cameras.png" />
@@ -34,11 +44,9 @@ function ScrollSelectCategory({ setCurrentPage }) {
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Headphone&Earphones.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/HomeTheatres&Soundbars.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/KitchenAppliance.png" />
-        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Laptops.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Refrigerators.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Speakers&MediaPlayers.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Tablets.png" />
-        <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Televisions.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/WaterPurifier.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/Wearables.png" />
         <ScrollSelectCategoryImage image="HomePageComponents/Scroll Select Category/UnboxedByCroma.png" />

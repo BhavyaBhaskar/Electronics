@@ -13,14 +13,21 @@ function MenuList({ setIsMenuOpen, setCurrentPage }) {
       <MenuItem
         text="Televisionn & Accessories"
         setCurrentPage={setCurrentPage}
+        pageOpen="Television"
       />
-      <MenuItem text="Home Appliance" setCurrentPage={setCurrentPage} />
+      <MenuItem
+        text="PC and Laptops"
+        setCurrentPage={setCurrentPage}
+        pageOpen="Laptop"
+      />
       <MenuItem
         text="Phone & Wearables"
         setCurrentPage={setCurrentPage}
         pageOpen="MobilePhone"
       />
-      <MenuItem text="Computers and Tablets" setCurrentPage={setCurrentPage} />
+
+      <MenuItem text="Home Appliance" setCurrentPage={setCurrentPage} />
+
       <MenuItem text="Kitchen Appliances" setCurrentPage={setCurrentPage} />
       <MenuItem text="Audio & Video" setCurrentPage={setCurrentPage} />
       <MenuItem text="Health & Fitness" setCurrentPage={setCurrentPage} />
